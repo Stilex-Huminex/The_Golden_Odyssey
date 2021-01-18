@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private float jumHeight = 3f;
 
+   
 
 
     [SerializeField] private Transform groundCheck; //position sphere

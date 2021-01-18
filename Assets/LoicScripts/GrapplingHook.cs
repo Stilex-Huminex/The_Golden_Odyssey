@@ -8,7 +8,7 @@ public class GrapplingHook : MonoBehaviour
     private LineRenderer lr;
     private Vector3 pointGrappin;
     public LayerMask surfaces;
-    public Transform watchTip, camera, joueur;
+    public Transform watchTip, view, joueur;
     private float maxDistance = 100f;
     private SpringJoint joint;
 
@@ -32,7 +32,7 @@ public class GrapplingHook : MonoBehaviour
     void StartGrapple()
     {
         RaycastHit rh;
-        if (Physics.Raycast(camera.position, camera.forward, out rh, maxDistance, surfaces))
+        if (Physics.Raycast(view.position, view.forward, out rh, maxDistance, surfaces))
         {
             pointGrappin = rh.point;
             joint = joueur.gameObject.AddComponent<SpringJoint>();
@@ -41,6 +41,8 @@ public class GrapplingHook : MonoBehaviour
             float distanceAuPoint = Vector3.Distance(joueur.position, pointGrappin);
             joint.maxDistance = distanceAuPoint * 0.8f;
             joint.minDistance = distanceAuPoint * 0.25f;
+
+            joint.spring = 4.5f;
         }
     }
 

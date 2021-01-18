@@ -2,10 +2,12 @@
 
 public class TerrainGenerator : MonoBehaviour
 {
+    [SerializeField] private bool shouldRun;
+
     public int height = 500;
     public int width = 500;
-    public int depth = 20;
 
+    public int maxDepth = 20;
     public float scale = 20f;
 
     public int offsetX = 0;
@@ -13,13 +15,16 @@ public class TerrainGenerator : MonoBehaviour
 
     void Start()
     {
-        Terrain t = GetComponent<Terrain>();
-        t.terrainData = GenerateTerrain(t.terrainData);
+        if (shouldRun)
+        {
+            Terrain t = GetComponent<Terrain>();
+            t.terrainData = GenerateTerrain(t.terrainData);
+        }
     }
 
     TerrainData GenerateTerrain(TerrainData terrainData)
     {
-        terrainData.size = new Vector3(width, depth, height);
+        terrainData.size = new Vector3(width, maxDepth, height);
         terrainData.SetHeights(0, 0, GenerateHeights());
 
         return terrainData;

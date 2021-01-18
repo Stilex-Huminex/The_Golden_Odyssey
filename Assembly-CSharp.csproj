@@ -64,8 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\LoicScripts\MouseLook.cs" />
+    <Compile Include="Assets\LoicScripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scenes\SpaceLevel\Script\CameraController.cs" />
     <Compile Include="Assets\Scenes\SpaceLevel\Script\MainVaisseau.cs" />
     <Reference Include="UnityEngine">

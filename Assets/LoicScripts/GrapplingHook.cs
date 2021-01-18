@@ -38,12 +38,9 @@ public class GrapplingHook : MonoBehaviour
             joint = joueur.gameObject.AddComponent<SpringJoint>();
             joint.autoConfigureConnectedAnchor = false;
             joint.connectedAnchor = pointGrappin;
-<<<<<<< Updated upstream
             float distanceAuPoint = Vector3.Distance(joueur.position, pointGrappin);
             joint.maxDistance = distanceAuPoint * 0.8f;
             joint.minDistance = distanceAuPoint * 0.25f;
-=======
->>>>>>> Stashed changes
         }
     }
 

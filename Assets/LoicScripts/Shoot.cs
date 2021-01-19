@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectiles : MonoBehaviour
+public class Shoot : MonoBehaviour
 {
     public Camera cam;
     public GameObject projectile;
     public Transform PointFeu;
+    public float projectileVite = 30;
 
     private Vector3 destination;
     void Start()
@@ -39,6 +40,7 @@ public class Projectiles : MonoBehaviour
     void InitProj()
     {
         var projObj = Instantiate(projectile, PointFeu.position, Quaternion.identity) as GameObject;
+        projObj.GetComponent<Rigidbody>().velocity = (destination - PointFeu.position).normalized * projectileVite;
     }
 }
 

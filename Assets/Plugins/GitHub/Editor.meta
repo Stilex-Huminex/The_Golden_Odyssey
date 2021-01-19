@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Scripts/GitHub.meta
-guid: bb07964a298ba4f4b8bf3cba4b31fb1f
+<<<<<<< HEAD:Assets/Plugins/GitHub/Editor.meta
+guid: cad92998c5182496e8b989b406d9f156
 folderAsset: yes
 DefaultImporter:
 =======
 guid: 8ec2765ff758d3a4983654e5b2bcf5c4
 PrefabImporter:
->>>>>>> 868fd91b43bc52bdd4382ffc1caeb77cbce454ed:Assets/Prefabs/Beam.prefab.meta
+>>>>>>> f60899a4c29ea7584abdd010037943cee58f3d2c:Assets/Prefabs/Beam.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

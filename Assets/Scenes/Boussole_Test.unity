@@ -3063,14 +3063,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0.7
-    y: -0.7
-    width: 1
-    height: 1
+    y: -0.5
+    width: 0.9
+    height: 0.9
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 11
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
@@ -3953,6 +3953,7 @@ MonoBehaviour:
   point: {fileID: 7583483320843580134, guid: 8011bda7404200f4bb30ff9d03ab2e0b, type: 3}
   distance: 10
   helper: {fileID: 1452976686}
+  radar: {fileID: 1274594792}
 --- !u!1001 &3611202657964827253
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2864,6 +2864,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 133
       objectReference: {fileID: 0}
+    - target: {fileID: 7967673246485668635, guid: 31d20129f827e8248bc4f0486a12330c,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 5687
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31d20129f827e8248bc4f0486a12330c, type: 3}
 --- !u!1001 &1516300768

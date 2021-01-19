@@ -8,8 +8,11 @@ public class altarCollider : MonoBehaviour
 {
     [SerializeField] private Text popup;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if()
+        if (collision.collider.name == "First Person Player")
+        {
+            popup.text = "AAAAAAAA";
+        }
     }
 }

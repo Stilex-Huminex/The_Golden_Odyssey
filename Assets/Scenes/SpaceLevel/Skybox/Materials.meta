@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/SpaceLevel/Skybox/Materials.meta
 guid: 40396364b5c0d9744aa637e50d351380
 folderAsset: yes
+=======
+guid: adfe556685adba2479c48e450a6a30b3
+>>>>>>> bc9149ef0bfc9cfccec35019475199447f8bf151:Assets/Modèles 3D/LabyFab.blend1.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -3,8 +3,25 @@
 public class VaisseauColider : MonoBehaviour
 {
     public Transform Vaisseau;
+    public GameObject panel;
+
+    private void OnCollisionEnter(Collision hit)
+    {
+      
+        if (hit.gameObject.tag == "Asteroïde")
+        {
+            Cursor.lockState = CursorLockMode.None;
+            FindObjectOfType<MainVaisseau>().enabled = false;
+            
+            panel.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
     private void OnTriggerEnter(Collider hit)
     {
+        
+
+
         if (hit.gameObject.name == "Teleportation6")
         {
 

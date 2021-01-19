@@ -18,7 +18,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             Interaction i = rh.collider.gameObject.GetComponent<Interaction>();
 
-            if (Input.GetMouseButton(0) && SaveManager.currentWeapon == "laser")
+            if (Input.GetMouseButton(0))
             {
                 i.Interact();
             }

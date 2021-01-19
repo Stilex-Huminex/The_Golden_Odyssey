@@ -15,7 +15,7 @@ public class Interaction : MonoBehaviour
         {
             ParticleSystem ps = go.GetComponent<ParticleSystem>();
 
-            if (!ps.main.playOnAwake) {
+            if (SaveManager.currentWeapon == "laser" && !ps.main.playOnAwake) {
                 ps.Play();
             }
         }
@@ -23,7 +23,10 @@ public class Interaction : MonoBehaviour
         // 2 - cailloux (grotte glace)
         if (id == 2)
         {
-            go.SetActive(false);
+            if (SaveManager.currentWeapon == "laser")
+            {
+                go.SetActive(false);
+            }
         }
     }
 }

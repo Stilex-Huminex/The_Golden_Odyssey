@@ -1,10 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject optionsMenu;
+    public string SceneDesti;
 
+    public void NewGame() 
+    {
+        SceneManager.LoadScene(SceneDesti);
+    }
+    
     public void goToMainMenu()
     {
         mainMenu.SetActive(true);

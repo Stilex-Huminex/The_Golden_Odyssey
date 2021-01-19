@@ -8,19 +8,17 @@ public class WatchManager : MonoBehaviour
 
     [SerializeField] private Radar radar;
     [SerializeField] private GrapplingHook grappin;
-    void Start()
-    {
-        Debug.Log("Woohoooo");
-        if (Input.GetKeyDown(KeyCode.Ampersand))
-        {
-            Debug.Log("Woohoooo");
-        }
-        
-    }
+    [SerializeField] private Material applications;
+    [SerializeField] private GameObject ecran;
+
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Debug.Log("Woohoooo");
+        }
+
     }
 }

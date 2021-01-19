@@ -4,7 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private CharacterController controller;
 
-    [SerializeField] private float speed = 12f;
+    [SerializeField] private float baseSpeed = 12f;
     
     [SerializeField] private float gravity = -9.81f;
     [SerializeField] private float jumHeight = 3f;
@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        float speed;
+
         // créer une spère invisible en dessous du perso et si elle touche quelque chose isgrounded devient true
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -37,11 +39,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey("left shift"))
         {
-            speed = 18f;
+            speed = baseSpeed * 1.5f;
         }
         else
         {
-            speed = 12f;
+            speed = baseSpeed;
         }
 
         Vector3 move = transform.right * x + transform.forward * z;

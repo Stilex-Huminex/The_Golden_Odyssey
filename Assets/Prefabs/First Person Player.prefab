@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1881859321289974966}
-  speed: 12
+  baseSpeed: 12
   gravity: -20
   jumHeight: 3
   groundCheck: {fileID: 7638352145978769834}
@@ -491,6 +491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radar: {fileID: 976276011745026718}
   grappin: {fileID: 976276012378491282}
+  applications: []
+  ecran: {fileID: 0}
 --- !u!1 &1209686431148872382
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +663,7 @@ GameObject:
   - component: {fileID: 7247363782865809909}
   - component: {fileID: 4201490114447799088}
   - component: {fileID: 6658428457522270151}
+  - component: {fileID: 4402640082329172990}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -714,7 +717,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1591
+    m_Bits: 5687
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -748,6 +751,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MouseSensivity: 300
   playerBody: {fileID: 976276012664390495}
+--- !u!114 &4402640082329172990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431417516689602721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &3661696360361397141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,6 +1135,7 @@ GameObject:
   - component: {fileID: 7784840371392853586}
   - component: {fileID: 7483599036944863727}
   - component: {fileID: 976276012378491282}
+  - component: {fileID: 4169224588350288747}
   m_Layer: 10
   m_Name: SmartWatch
   m_TagString: Untagged
@@ -1250,3 +1285,20 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &4169224588350288747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9177842118626217807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69892d953ca9fc3429d3f3437321ea15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 4096
+  view: {fileID: 7674523160684013545}
+  maxDistance: 100

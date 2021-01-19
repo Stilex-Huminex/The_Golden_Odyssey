@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -232,8 +232,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 233614667}
-  - component: {fileID: 233614666}
   - component: {fileID: 233614668}
+  - component: {fileID: 233614666}
   m_Layer: 0
   m_Name: Canvas Container
   m_TagString: Untagged
@@ -250,11 +250,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 233614665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21ce84a3798b7b14ea69ee195ab12e4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 81ca15a6d046b6c42841d0e2f2d9cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenu: {fileID: 44177939}
-  optionsMenu: {fileID: 1298863235}
+  audioMixer: {fileID: 24100000, guid: e20402dfea875694097783aabbd35799, type: 2}
 --- !u!4 &233614667
 Transform:
   m_ObjectHideFlags: 0
@@ -280,10 +279,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 233614665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a07509f08dbed8429cd233c3044235b, type: 3}
+  m_Script: {fileID: 11500000, guid: f745803710da0d540a255b07839104ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: cd6c6e19e646b66478191adc3df6ea1f, type: 2}
+  mainMenu: {fileID: 44177939}
+  optionsMenu: {fileID: 1298863235}
 --- !u!1 &293058791
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +957,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 233614668}
+      - m_Target: {fileID: 0}
         m_MethodName: setVolume
         m_Mode: 0
         m_Arguments:
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 233614666}
+      - m_Target: {fileID: 0}
         m_MethodName: Quitter
         m_Mode: 1
         m_Arguments:
@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 233614666}
+      - m_Target: {fileID: 233614668}
         m_MethodName: goToMainMenu
         m_Mode: 1
         m_Arguments:
@@ -2073,7 +2073,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 233614666}
+      - m_Target: {fileID: 233614668}
         m_MethodName: goToOptions
         m_Mode: 1
         m_Arguments:

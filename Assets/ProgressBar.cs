@@ -6,25 +6,42 @@ using UnityEngine.UI;
 [ExecuteInEditMode()]
 public class ProgressBar : MonoBehaviour
 {
+    public GameObject panel;
+    public GameObject slider1;
 
-    public int maximum;
-    public int current;
-    public Image mask;
-    // Start is called before the first frame update
+    public Slider slider;
+    public Text progressText;
+    public float FillSpeed = 0.5f;
+
+    private float targetProgress = 0;
+    private void Awake()
+    {
+        slider = gameObject.GetComponent<Slider>();
+    }
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
-        GetCurrentFill();
+       if (slider.value < targetProgress)
+        {
+            slider.value += FillSpeed * Time.deltaTime;
+            progressText.text = Mathf.Floor(slider.value * 100f) + "%";
+            
+        }
+       if (slider.value == 1f)
+        {
+            panel.SetActive(false);
+            slider1.SetActive(false);
+            FindObjectOfType<MainVaisseau>().enabled = true;
+            slider.value = 0f;
+        }
     }
 
-    void GetCurrentFill()
+    public void IncrementProgress(float newProgress)
     {
-        float fillAmount = (float)current / (float)maximum;
-        mask.fillAmount = fillAmount;
+        targetProgress = slider.value + newProgress;
+        progressText.text =  slider.value * 100f + "%";
     }
 }

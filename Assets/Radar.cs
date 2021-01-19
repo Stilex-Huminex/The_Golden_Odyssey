@@ -23,20 +23,28 @@ public class Radar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0;  i < pointeurs.Count; i++)
+        if (!Input.GetMouseButton(0))
         {
-            if (Vector3.Distance(pointeurs[i].transform.position, transform.position) > distance)
+            radar.enabled = false;
+        }
+        else
+        {
+            radar.enabled = true;
+            for (int i = 0; i < pointeurs.Count; i++)
             {
-                helper.LookAt(pointeurs[i].transform);
-                pointBordure[i].transform.position = transform.position + distance * helper.forward;
-                pointBordure[i].layer = LayerMask.NameToLayer("Radar");
-                pointeurs[i].layer = LayerMask.NameToLayer("Invisible");
-            }
-            else
-            {
-                pointBordure[i].layer = LayerMask.NameToLayer("Invisible");
-                pointeurs[i].layer = LayerMask.NameToLayer("Radar");
+                if (Vector3.Distance(pointeurs[i].transform.position, transform.position) > distance)
+                {
+                    helper.LookAt(pointeurs[i].transform);
+                    pointBordure[i].transform.position = transform.position + distance * helper.forward;
+                    pointBordure[i].layer = LayerMask.NameToLayer("Radar");
+                    pointeurs[i].layer = LayerMask.NameToLayer("Invisible");
+                }
+                else
+                {
+                    pointBordure[i].layer = LayerMask.NameToLayer("Invisible");
+                    pointeurs[i].layer = LayerMask.NameToLayer("Radar");
 
+                }
             }
         }
         

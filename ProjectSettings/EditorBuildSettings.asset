@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Space_Level.unity
+    guid: c2e1def5eb9617347820318d36a797b1
+  - enabled: 1
+    path: Assets/Scenes/Taharus.unity
+    guid: e68f5a50ff3d3b24db0c7c4d54aff50a
   m_configObjects: {}

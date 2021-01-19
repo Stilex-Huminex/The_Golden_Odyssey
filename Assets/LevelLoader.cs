@@ -7,6 +7,7 @@ public class LevelLoader : MonoBehaviour
 
     public GameObject loadingScreen;
     public Slider slider;
+    public Text progressText;
 
    public void LoadLevel(int sceneIndex)
     {
@@ -25,7 +26,7 @@ public class LevelLoader : MonoBehaviour
         {
             float progress = Mathf.Clamp01(operation.progress / .9f);
             slider.value = progress;
-
+            
             yield return null;
         }
     }

@@ -25,13 +25,13 @@ public class VaisseauColider : MonoBehaviour
 
         if (hit.gameObject.name == "Planet loin")
         {
-            FindObjectOfType<LevelLoader>().LoadLevel(1);
+            FindObjectOfType<LevelLoader>().LoadLevel(4);
 
 
         }
         if (hit.gameObject.name == "Planet moyen")
         {
-            FindObjectOfType<LevelLoader>().LoadLevel(1);
+            FindObjectOfType<LevelLoader>().LoadLevel(2);
         }
         if (hit.gameObject.name == "Planet proche")
         {

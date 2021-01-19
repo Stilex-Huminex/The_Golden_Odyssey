@@ -9,7 +9,7 @@ public class Radar : MonoBehaviour
     [SerializeField] private GameObject[] traqueurs;
     List<GameObject> pointeurs;
     List<GameObject> pointBordure;
-    [SerializeField] private GameObject point;
+    [SerializeField] private GameObject point, radarImg;
     [SerializeField] private float distance;
     [SerializeField] private Transform helper;
     [SerializeField] private Camera radar;
@@ -26,10 +26,12 @@ public class Radar : MonoBehaviour
         if (!Input.GetMouseButton(0))
         {
             radar.enabled = false;
+            radarImg.SetActive(false);
         }
         else
         {
             radar.enabled = true;
+            radarImg.SetActive(true);
             for (int i = 0; i < pointeurs.Count; i++)
             {
                 if (Vector3.Distance(pointeurs[i].transform.position, transform.position) > distance)

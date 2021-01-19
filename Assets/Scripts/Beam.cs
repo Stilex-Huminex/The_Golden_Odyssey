@@ -15,15 +15,15 @@ public class Beam : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             ActiverRayon();
         }
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(0))
         {
             MAJRayon();
         }
-        if (Input.GetMouseButtonUp(1))
+        if (Input.GetMouseButtonUp(0))
         {
             DesactiverRayon();
         }

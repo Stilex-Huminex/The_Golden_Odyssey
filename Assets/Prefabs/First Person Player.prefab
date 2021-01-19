@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 7967673244916727958}
   - component: {fileID: 7967673244916727957}
   - component: {fileID: 4372182306262498765}
+  - component: {fileID: 6040143266136470938}
   m_Layer: 10
   m_Name: SmartWatch
   m_TagString: Untagged
@@ -283,6 +284,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefLaz: {fileID: 1628324146353013237, guid: 602ee1ac5e3c77644ba386b9983cc4ee, type: 3}
+  pointFeu: {fileID: 7967673246583900551}
+--- !u!114 &6040143266136470938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967673244916727959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63fe86505250ef478962000523bbc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefBeam: {fileID: 1094914720294666328, guid: f4340e7412a409540804ff531fc98877,
+    type: 3}
   pointFeu: {fileID: 7967673246583900551}
 --- !u!1 &7967673245202265325
 GameObject:
@@ -604,6 +620,7 @@ GameObject:
   - component: {fileID: 7967673245602971259}
   - component: {fileID: 7967673245602971260}
   - component: {fileID: 2056611951299206223}
+  - component: {fileID: 9105398669213229863}
   m_Layer: 0
   m_Name: First Person Player
   m_TagString: Untagged
@@ -767,6 +784,7 @@ MonoBehaviour:
   radar: {fileID: 7967673245602971259}
   grappin: {fileID: 7967673244916727957}
   laser: {fileID: 4372182306262498765}
+  wave: {fileID: 6040143266136470938}
   applications:
   - {fileID: 2100000, guid: 81bfd959af209b54592806bcadebf8cd, type: 2}
   - {fileID: 2100000, guid: da675c710bb5ea942a3b226c4e299d6f, type: 2}
@@ -785,6 +803,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3660e62231d6614092e8e6bc72c67fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9105398669213229863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7967673245602971261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69892d953ca9fc3429d3f3437321ea15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer:
+    serializedVersion: 2
+    m_Bits: 4096
+  view: {fileID: 7967673246485668638}
+  maxDistance: 100
 --- !u!1 &7967673245828848660
 GameObject:
   m_ObjectHideFlags: 0

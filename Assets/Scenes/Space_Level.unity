@@ -130,7 +130,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 526379}
-  - component: {fileID: 526378}
   - component: {fileID: 526377}
   - component: {fileID: 526376}
   - component: {fileID: 526375}
@@ -202,18 +201,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &526378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &526379
 Transform:
   m_ObjectHideFlags: 0
@@ -314,6 +301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -478,6 +470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -718,6 +715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &61434380
@@ -729,7 +731,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 61434385}
-  - component: {fileID: 61434384}
   - component: {fileID: 61434383}
   - component: {fileID: 61434382}
   - component: {fileID: 61434381}
@@ -801,18 +802,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &61434384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61434380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &61434385
 Transform:
   m_ObjectHideFlags: 0
@@ -939,6 +928,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &90813374
@@ -1028,6 +1022,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &97201866
@@ -1116,6 +1115,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -1339,6 +1343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &111351452 stripped
@@ -1452,6 +1461,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -1567,6 +1581,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &123804307 stripped
@@ -1681,6 +1700,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &131810041
@@ -1769,6 +1793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -1859,6 +1888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &144400026
@@ -1947,6 +1981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -2137,6 +2176,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &196454311
@@ -2225,6 +2269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -2315,6 +2364,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &210225262
@@ -2404,6 +2458,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (164)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &212933040
@@ -2492,6 +2551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -2745,6 +2809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &227323570
@@ -2833,6 +2902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -2947,6 +3021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -3112,6 +3191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &283779175 stripped
@@ -3226,6 +3310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &283830253
@@ -3314,6 +3403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -3479,6 +3573,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &315717394
@@ -3567,6 +3666,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -3657,6 +3761,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &345725135
@@ -3745,6 +3854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -3835,6 +3949,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &354610300
@@ -3923,6 +4042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -4038,6 +4162,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &374784245 stripped
@@ -4152,6 +4281,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &384990439
@@ -4240,6 +4374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -4380,6 +4519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &410925848
@@ -4469,6 +4613,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &427942009
@@ -4557,6 +4706,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -4672,6 +4826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &453735648 stripped
@@ -4786,6 +4945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &463943618
@@ -4875,6 +5039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &464648767
@@ -4963,6 +5132,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -5078,6 +5252,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &490646526 stripped
@@ -5192,6 +5371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &504197620
@@ -5280,6 +5464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -5495,6 +5684,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &522722113 stripped
@@ -5608,6 +5802,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -5773,6 +5972,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &540627165 stripped
@@ -5887,6 +6091,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &551219706
@@ -5976,6 +6185,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &555037518
@@ -6064,6 +6278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -6271,6 +6490,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &575430136 stripped
@@ -6410,6 +6634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &604984730
@@ -6499,6 +6728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &610251618
@@ -6587,6 +6821,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -6802,6 +7041,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &660916623
@@ -6890,6 +7134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -7309,6 +7558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &711251466
@@ -7397,6 +7651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -7537,6 +7796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &737638453 stripped
@@ -7676,6 +7940,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &747024459 stripped
@@ -7790,6 +8059,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &752419311
@@ -7878,6 +8152,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -7968,6 +8247,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &759024075
@@ -8056,6 +8340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -8171,6 +8460,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &767917989
@@ -8259,6 +8553,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -8374,6 +8673,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &787938476
@@ -8462,6 +8766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -8602,6 +8911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &826200982
@@ -8691,6 +9005,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &830651948
@@ -8779,6 +9098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -8919,6 +9243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &844222104 stripped
@@ -9032,6 +9361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -9172,6 +9506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &878516548
@@ -9261,6 +9600,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &885787345
@@ -9349,6 +9693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -9464,6 +9813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &914925911
@@ -9552,6 +9906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -9713,6 +10072,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -9878,6 +10242,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1008572643
@@ -9953,7 +10322,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012536048}
-  - component: {fileID: 1012536047}
   - component: {fileID: 1012536046}
   - component: {fileID: 1012536045}
   - component: {fileID: 1012536044}
@@ -10025,18 +10393,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1012536047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012536043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1012536048
 Transform:
   m_ObjectHideFlags: 0
@@ -10137,6 +10493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -10302,6 +10663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1043932627 stripped
@@ -10416,6 +10782,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1052671802
@@ -10505,6 +10876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1061589523
@@ -10516,7 +10892,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061589528}
-  - component: {fileID: 1061589527}
   - component: {fileID: 1061589526}
   - component: {fileID: 1061589525}
   - component: {fileID: 1061589524}
@@ -10588,18 +10963,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1061589527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061589523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1061589528
 Transform:
   m_ObjectHideFlags: 0
@@ -10701,6 +11064,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1071297218
@@ -10789,6 +11157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -10903,6 +11276,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -11067,6 +11445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -11299,6 +11682,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1104000410
@@ -11387,6 +11775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -11502,6 +11895,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1122690260 stripped
@@ -11616,6 +12014,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1133803629
@@ -11705,6 +12108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1147618197
@@ -11793,6 +12201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -11958,6 +12371,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1159097432 stripped
@@ -12097,6 +12515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1187046841
@@ -12185,6 +12608,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -12275,6 +12703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1209812385
@@ -12363,6 +12796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -12478,6 +12916,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1253339707 stripped
@@ -12592,6 +13035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1268949782
@@ -12680,6 +13128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -12770,6 +13223,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1272714672
@@ -12858,6 +13316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -12998,6 +13461,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1288988378
@@ -13086,6 +13554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -13259,6 +13732,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1309688449
@@ -13347,6 +13825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -13437,6 +13920,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1312014217
@@ -13525,6 +14013,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -13640,6 +14133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1351382477 stripped
@@ -13754,6 +14252,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1355887507
@@ -13842,6 +14345,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -13932,6 +14440,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1360699349
@@ -14020,6 +14533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -14160,6 +14678,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1374719003 stripped
@@ -14273,6 +14796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -14437,6 +14965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -14626,6 +15159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -15022,6 +15560,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1429150950
@@ -15111,6 +15654,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1433269767
@@ -15199,6 +15747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -15314,6 +15867,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1449159690 stripped
@@ -15428,6 +15986,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1470186882
@@ -15516,6 +16079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -15606,6 +16174,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1510165538
@@ -15695,6 +16268,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1513061806
@@ -15783,6 +16361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -15897,6 +16480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -16051,6 +16639,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1539648435 stripped
@@ -16164,6 +16757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -16303,6 +16901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -16656,6 +17259,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1567406046 stripped
@@ -16717,7 +17325,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1594399873}
-  - component: {fileID: 1594399872}
   - component: {fileID: 1594399871}
   - component: {fileID: 1594399870}
   - component: {fileID: 1594399869}
@@ -16789,18 +17396,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1594399872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594399868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1594399873
 Transform:
   m_ObjectHideFlags: 0
@@ -16902,6 +17497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1600103926
@@ -16991,6 +17591,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1601798499 stripped
@@ -17027,7 +17632,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1602584577}
-  - component: {fileID: 1602584576}
   - component: {fileID: 1602584575}
   - component: {fileID: 1602584574}
   - component: {fileID: 1602584573}
@@ -17099,18 +17703,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1602584576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602584572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1602584577
 Transform:
   m_ObjectHideFlags: 0
@@ -17329,6 +17921,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1624535996 stripped
@@ -17442,6 +18039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -17607,6 +18209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1641824006 stripped
@@ -17720,6 +18327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -17885,6 +18497,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1673557501 stripped
@@ -18024,6 +18641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1697207763
@@ -18112,6 +18734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -18252,6 +18879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1708191732 stripped
@@ -18365,6 +18997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -18530,6 +19167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1749355257
@@ -18618,6 +19260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -18758,6 +19405,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1767148631
@@ -18847,6 +19499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1777889967
@@ -18935,6 +19592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -19100,6 +19762,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1828394992
@@ -19189,6 +19856,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1833307632
@@ -19277,6 +19949,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -19391,6 +20068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -19530,6 +20212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -19996,6 +20683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1886397040
@@ -20085,6 +20777,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1890085776
@@ -20173,6 +20870,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -20288,6 +20990,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1894882295
@@ -20376,6 +21083,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -20516,6 +21228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1919244275
@@ -20604,6 +21321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -20694,6 +21416,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &1924358352
@@ -20782,6 +21509,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -21097,6 +21829,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1 &1984876254 stripped
@@ -21310,6 +22047,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &2016372007
@@ -21398,6 +22140,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -21651,6 +22398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &2040031428
@@ -21739,6 +22491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -21829,6 +22586,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &2054086456
@@ -21917,6 +22679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -22007,6 +22774,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &2066357793
@@ -22096,6 +22868,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: nvasteroid (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
 --- !u!1001 &2067619474
@@ -22184,6 +22961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -22298,6 +23080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -22462,6 +23249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: nvasteroid (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
+        type: 3}
+      propertyPath: m_TagString
+      value: "Astero\xEFde"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}

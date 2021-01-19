@@ -10,7 +10,7 @@ public class altarCollider : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.name = "First Person Player")
+        if (collision.collider.name == "First Person Player")
         {
             popup.text = "AAAAAAAA";
         }

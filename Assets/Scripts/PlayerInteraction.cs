@@ -16,7 +16,13 @@ public class PlayerInteraction : MonoBehaviour
 
         if (Physics.Raycast(view.position, view.forward, out rh, maxDistance, layer))
         {
-            Debug.Log("Aiming at interactable");
+            Interaction i = rh.collider.gameObject.GetComponent<Interaction>();
+
+            if (Input.GetMouseButton(0))
+            {
+                i.Interact();
+            }
+            
         }
     }
 }

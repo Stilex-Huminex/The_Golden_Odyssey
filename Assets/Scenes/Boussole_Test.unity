@@ -208,7 +208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90977033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.8, y: 7.11, z: -102.6}
+  m_LocalPosition: {x: 237, y: 7.11, z: -211.8}
   m_LocalScale: {x: 2.7483, y: 3.0423, z: 4.1648574}
   m_Children: []
   m_Father: {fileID: 0}
@@ -771,7 +771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811245514}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.9, y: 7.11, z: -190.1}
+  m_LocalPosition: {x: 36.6, y: 7.11, z: -250.3}
   m_LocalScale: {x: 2.7483, y: 3.0423, z: 4.1648574}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3092,7 +3092,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16036
+  m_Name: pb_Mesh44152
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3255,7 +3255,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16014
+  m_Name: pb_Mesh44114
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3841,6 +3841,7 @@ MonoBehaviour:
   - {fileID: 124869527}
   - {fileID: 373997781}
   - {fileID: 685234359}
+  point: {fileID: 7583483320843580134, guid: 8011bda7404200f4bb30ff9d03ab2e0b, type: 3}
 --- !u!1001 &3611202657964827253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3852,6 +3853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 1591
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611202658170352708, guid: 31d20129f827e8248bc4f0486a12330c,
+        type: 3}
+      propertyPath: gravity
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 3611202658170352730, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}

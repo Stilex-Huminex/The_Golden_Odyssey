@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/Vylus/Materials.meta
 guid: 42c9e3b4c71ca6a4a963d6175cc51ead
+=======
+guid: 94ed11ebcc6605441818c6dd548c95b0
+>>>>>>> fd732411b6ec7659338a8d330902e16c68714b61:Assets/Scenes/Space_Level.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

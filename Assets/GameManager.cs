@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject panel;
+    
 
     public void réparation()
     {
-        FindObjectOfType<MainVaisseau>().enabled = true;
-        panel.SetActive(false);
+        FindObjectOfType<MainVaisseau>().enabled = false;
         Cursor.lockState = CursorLockMode.Locked;
+        FindObjectOfType<ProgressBar>().IncrementProgress(1f);
+        
     }
 
 }

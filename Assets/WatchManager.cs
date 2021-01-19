@@ -25,7 +25,7 @@ public class WatchManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1) || SaveManager.currentWeapon == "radar")
+        if ((Input.GetKeyDown(KeyCode.Alpha1)))
         {
             ecran.material = applications[0];
             radar.enabled = true;
@@ -35,7 +35,7 @@ public class WatchManager : MonoBehaviour
             SaveManager.currentWeapon = "radar";
 
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && SaveManager.isGrapUnlocked || SaveManager.currentWeapon == "grappin")
+        else if ((Input.GetKeyDown(KeyCode.Alpha2) && SaveManager.isGrapUnlocked))
         {
             ecran.material = applications[1];
             radar.enabled = false;
@@ -44,7 +44,7 @@ public class WatchManager : MonoBehaviour
             wave.enabled = false;
             SaveManager.currentWeapon = "grappin";
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && SaveManager.isLaserUnlocked || SaveManager.currentWeapon == "laser")
+        else if ((Input.GetKeyDown(KeyCode.Alpha3) && SaveManager.isLaserUnlocked))
         {
             ecran.material = applications[2];
             radar.enabled = false;
@@ -53,7 +53,7 @@ public class WatchManager : MonoBehaviour
             wave.enabled = false;
             SaveManager.currentWeapon = "laser";
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && SaveManager.isWaveUnlocked || SaveManager.currentWeapon == "beam")
+        else if ((Input.GetKeyDown(KeyCode.Alpha4) && SaveManager.isWaveUnlocked))
         {
             ecran.material = applications[3];
             radar.enabled = false;

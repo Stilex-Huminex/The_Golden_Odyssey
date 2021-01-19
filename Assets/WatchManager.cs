@@ -27,17 +27,17 @@ public class WatchManager : MonoBehaviour
             grappin.enabled = false;
 
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && SaveManager.isGrapUnlocked)
         {
             ecran.material = applications[1];
             radar.enabled = false;
             grappin.enabled = true;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && SaveManager.isLaserUnlocked)
         {
             ecran.material = applications[2];
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && SaveManager.isWaveUnlocked)
         {
             ecran.material = applications[3];
         }

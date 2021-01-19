@@ -19,15 +19,28 @@ public class PlayerCollision : MonoBehaviour
         
         if (hit.gameObject.tag == "CheckPoint")
         {
+           
+
             
             if (checkpointName != hit.gameObject.name)
             {
-                string checkpointName = hit.gameObject.name;
+                
+                checkpointName = hit.gameObject.name;
                 x = transform.position.x;
                 y = transform.position.y;
                 z = transform.position.z;
+                Debug.Log(x);
             }
         }     
+    }
+
+    public void OnCollisionEnter(Collision hit)
+    {
+        Debug.Log("Oui");
+        if (hit.gameObject.tag == "Mort")
+        {
+            transform.position = new Vector3(x, y, z);
+        }
     }
     private void Update()
     {

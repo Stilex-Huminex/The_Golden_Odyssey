@@ -3841,6 +3841,7 @@ MonoBehaviour:
   - {fileID: 124869527}
   - {fileID: 373997781}
   - {fileID: 685234359}
+  point: {fileID: 7583483320843580134, guid: 8011bda7404200f4bb30ff9d03ab2e0b, type: 3}
 --- !u!1001 &3611202657964827253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3852,6 +3853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 1591
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611202658170352708, guid: 31d20129f827e8248bc4f0486a12330c,
+        type: 3}
+      propertyPath: gravity
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 3611202658170352730, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}

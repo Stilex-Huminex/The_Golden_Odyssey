@@ -7,6 +7,7 @@ public class Radar : MonoBehaviour
 {
     [SerializeField] private GameObject[] traqueurs;
     List<GameObject> pointeurs;
+    List<GameObject> pointBordure;
     [SerializeField] private GameObject point;
 
     // Start is called before the first frame update
@@ -26,6 +27,7 @@ public class Radar : MonoBehaviour
         foreach(GameObject o in traqueurs)
         {
             GameObject k = Instantiate(point, o.transform.position, Quaternion.identity) as GameObject;
+            pointeurs.Add(k);
         }
     }
 }

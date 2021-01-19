@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Teleportation
   - "Astero\xEFde"
+  - CheckPoint
   layers:
   - Default
   - TransparentFX

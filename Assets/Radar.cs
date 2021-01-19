@@ -12,6 +12,7 @@ public class Radar : MonoBehaviour
     [SerializeField] private GameObject point;
     [SerializeField] private float distance;
     [SerializeField] private Transform helper;
+    [SerializeField] private Camera radar;
 
     // Start is called before the first frame update
     void Start()

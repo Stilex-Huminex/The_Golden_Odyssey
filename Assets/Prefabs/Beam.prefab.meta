@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/GitHub.meta
+guid: f4340e7412a409540804ff531fc98877
+folderAsset: yes
+DefaultImporter:
+=======
 guid: 8ec2765ff758d3a4983654e5b2bcf5c4
 PrefabImporter:
+>>>>>>> 868fd91b43bc52bdd4382ffc1caeb77cbce454ed:Assets/Prefabs/Beam.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

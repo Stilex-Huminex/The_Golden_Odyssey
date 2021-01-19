@@ -10,10 +10,6 @@ public class Shoot : MonoBehaviour
     public float projectileVite = 30;
 
     private Vector3 destination;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

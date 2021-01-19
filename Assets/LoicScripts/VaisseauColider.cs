@@ -5,6 +5,14 @@ public class VaisseauColider : MonoBehaviour
     public Transform Vaisseau;
     private void OnTriggerEnter(Collider hit)
     {
+
+        if (hit.gameObject.tag == "Astéroïde")
+        {
+            // contact astéroïde
+        }
+
+
+
         if (hit.gameObject.name == "Teleportation6")
         {
 

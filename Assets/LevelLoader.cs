@@ -9,14 +9,15 @@ public class LevelLoader : MonoBehaviour
     public Slider slider;
     public Text progressText;
 
-   public void LoadLevel(int sceneIndex)
+    
+    public void LoadLevel(int sceneIndex)
     {
         Cursor.lockState = CursorLockMode.None;
         StartCoroutine(LoadAsynchronously(sceneIndex));
-        
+
     }
 
-    IEnumerator LoadAsynchronously (int sceneIndex)
+    IEnumerator LoadAsynchronously(int sceneIndex)
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
 
@@ -30,5 +31,6 @@ public class LevelLoader : MonoBehaviour
             yield return null;
         }
     }
-   
+
+
 }

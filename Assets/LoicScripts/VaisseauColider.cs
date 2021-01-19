@@ -4,6 +4,7 @@ public class VaisseauColider : MonoBehaviour
 {
     public Transform Vaisseau;
     public GameObject panel;
+    public GameObject slider;
 
     private void OnCollisionEnter(Collision hit)
     {
@@ -14,6 +15,7 @@ public class VaisseauColider : MonoBehaviour
             FindObjectOfType<MainVaisseau>().enabled = false;
             
             panel.SetActive(true);
+            slider.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
         }
     }

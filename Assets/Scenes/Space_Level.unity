@@ -1227,7 +1227,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 98421370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9f42b4454fee544697dcbb48f95a3a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b1ddd1cd65d37f4c96b27e072dbf8f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Vaisseau: {fileID: 98421371}
@@ -5410,7 +5410,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 495304483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8e48880e4df3aa46915c78ee423dbdf, type: 3}
+  m_Script: {fileID: 11500000, guid: fd4b3aed74fbfa54eb69c8a6857efac6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 552362427}
@@ -15581,7 +15581,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414759907}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

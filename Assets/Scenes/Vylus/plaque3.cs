@@ -19,9 +19,8 @@ public class plaque3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (P3 == true && pl2.P2 == true && pl1.P1 == true)
+        if (P3 == true && pl2.P2 == true && pl1.P1 == true && !Transporter.activeSelf)
         {
-            Debug.Log("Une porte s'est ouverte");
             Transporter.SetActive(true) ;
         }
     }

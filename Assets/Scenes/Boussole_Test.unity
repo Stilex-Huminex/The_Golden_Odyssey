@@ -3395,7 +3395,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh125840
+  m_Name: pb_Mesh416732
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3558,7 +3558,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh125800
+  m_Name: pb_Mesh416692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4026,6 +4026,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1719149444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6982863258586350728, guid: 31d20129f827e8248bc4f0486a12330c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7967673245390923015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854740615
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,6 +4410,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7967673244916727957, guid: 31d20129f827e8248bc4f0486a12330c,
+        type: 3}
+      propertyPath: watchTip
+      value: 
+      objectReference: {fileID: 1719149444}
     - target: {fileID: 7967673245202265321, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}
       propertyPath: m_Pivot.x

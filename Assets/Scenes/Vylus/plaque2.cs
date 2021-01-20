@@ -18,14 +18,12 @@ public class plaque2 : MonoBehaviour
     {
         
     }
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision collision)
     {
-        if (P2 == false)
+        if (P2 == false && collision.gameObject.layer != 8)
         {
             P2 = true;
             RP2.material = M2;
-            Debug.Log("P2");
-
         }
     }
 }

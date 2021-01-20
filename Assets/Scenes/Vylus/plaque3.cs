@@ -14,6 +14,7 @@ public class plaque3 : MonoBehaviour
     void Start()
     {
         Transporter.SetActive(false);
+        FindObjectOfType<MapVilleCollider>().MapVille();
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class plaque3 : MonoBehaviour
         {
             P3 = true;
             RP3.material = M3;
+            FindObjectOfType<MapVilleCollider>().PlaqueAvancement();
         }
     }
 }

@@ -1,11 +1,14 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Interaction : MonoBehaviour
 {
     [SerializeField] private int id;
     [SerializeField] private int stoneID;
+    [SerializeField] private Text popupText;
+
+    private int previousStoneCount = -1;
 
     public int getID()
     {
@@ -81,9 +84,34 @@ public class Interaction : MonoBehaviour
             }
         }
 
+        // Altars
         if (id == 9)
         {
             Debug.Log("Activated altar " + stoneID);
+
+            // display text to the user
+            int count = (SaveManager.stone1 ? 1 : 0) + (SaveManager.stone2 ? 1 : 0) + (SaveManager.stone3 ? 1 : 0);
+
+            if (previousStoneCount < count)
+            {
+                // évite de répéter le popup
+                switch (count)
+                {
+                    case 0:
+                        StartCoroutine(DrawPopup("Ces symboles sont étranges mais ils semblent familiers..."));
+                        break;
+                    case 1:
+                        StartCoroutine(DrawPopup("Je sais que j'ai déjà vu ces coordonnées quelque part..."));
+                        break;
+                    case 2:
+                        StartCoroutine(DrawPopup("Le soleil ! Ce sont les coordonnées du soleil !"));
+                        break;
+                }
+                previousStoneCount = count;
+            }
+            
+
+            // save that we saw the stone
             switch (stoneID)
             {
                 case 1:
@@ -97,6 +125,20 @@ public class Interaction : MonoBehaviour
                     break;
             }
         }
+        if (id == 15)
+        {
+            if (SaveManager.currentWeapon == "beam")
+            {
+                GameObject.Find("Porte").GetComponent<wallDown>().descendre();
+            }
+        }
 
+    }
+
+    private IEnumerator DrawPopup(string texte)
+    {
+        popupText.text = texte;
+        yield return new WaitForSeconds(2.5f);
+        popupText.text = "";
     }
 }

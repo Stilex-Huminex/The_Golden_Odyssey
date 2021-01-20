@@ -24,14 +24,12 @@ public class plaque3 : MonoBehaviour
             Transporter.SetActive(true) ;
         }
     }
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision collision)
     {
-        if (P3 == false)
+        if (P3 == false && collision.gameObject.layer != 8)
         {
             P3 = true;
             RP3.material = M3;
-            Debug.Log("P3");
-
         }
     }
 }

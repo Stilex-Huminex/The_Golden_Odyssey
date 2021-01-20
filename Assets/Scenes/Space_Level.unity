@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4fa3ff2818e57b49a9b36a959dbbfcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Force: 5
+  Force: 15
   pressedUp: 0
   pressedLeft: 0
   pressedRight: 0
@@ -14818,6 +14818,7 @@ MonoBehaviour:
   loadingScreen: {fileID: 1785583950}
   slider: {fileID: 2136385514}
   progressText: {fileID: 1949637803}
+  sceneIndex: 0
 --- !u!4 &1282127922
 Transform:
   m_ObjectHideFlags: 0

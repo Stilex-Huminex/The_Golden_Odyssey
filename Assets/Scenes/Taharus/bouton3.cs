@@ -31,7 +31,10 @@ public class bouton3 : MonoBehaviour
             Bout3 = true;
             B3.enabled = false;
             Debug.Log("b3");
+            FindObjectOfType<altarCollider>().BoutonAvancement();
 
         }
+        
+
     }
 }

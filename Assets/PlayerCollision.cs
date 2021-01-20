@@ -25,16 +25,23 @@ public class PlayerCollision : MonoBehaviour
 
     public void OnTriggerEnter(Collider hit)
     {
-
+       
         if (hit.gameObject.tag == "CheckPoint")
+            
         {
-            x = transform.position.x;
-            y = transform.position.y;
-            z = transform.position.z;
+            if (checkpointName != hit.gameObject.tag)
+            {
+                checkpointName = hit.gameObject.tag;
+                Debug.Log(checkpointName);
+                x = transform.position.x;
+                y = transform.position.y;
+                z = transform.position.z;
+                FindObjectOfType<altarCollider>().MessageCheckpoint();
+            }
         }
 
 
-        if (hit.gameObject.name == "Lave")
+        if (hit.gameObject.name == "Lave" || hit.gameObject.tag == "Mort")
             {
 
             contr.enabled = false;
@@ -43,9 +50,10 @@ public class PlayerCollision : MonoBehaviour
             contr.enabled = true;
             move.enabled = true;
             
-            
-
             }
+
+        
+
     }
    
     

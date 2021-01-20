@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
 
 public class Radar : MonoBehaviour
@@ -9,10 +10,11 @@ public class Radar : MonoBehaviour
     [SerializeField] private GameObject[] traqueurs;
     List<GameObject> pointeurs;
     List<GameObject> pointBordure;
-    [SerializeField] private GameObject point, radarImg;
+    [SerializeField] private GameObject point;
     [SerializeField] private float distance;
     [SerializeField] private Transform helper;
     [SerializeField] private Camera radar;
+    [SerializeField] private RawImage radarImg;
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +28,12 @@ public class Radar : MonoBehaviour
         if (!Input.GetMouseButton(0))
         {
             radar.enabled = false;
-            radarImg.SetActive(false);
+            radarImg.enabled = false;
         }
         else
         {
             radar.enabled = true;
-            radarImg.SetActive(true);
+            radarImg.enabled = true;
             for (int i = 0; i < pointeurs.Count; i++)
             {
                 if (Vector3.Distance(pointeurs[i].transform.position, transform.position) > distance)

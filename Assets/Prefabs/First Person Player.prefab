@@ -713,10 +713,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   point: {fileID: 7583483320843580134, guid: 8011bda7404200f4bb30ff9d03ab2e0b, type: 3}
-  radarImg: {fileID: 7967673246639313877}
   distance: 10
   helper: {fileID: 7967673244813478778}
   radar: {fileID: 7967673246311421612}
+  radarImg: {fileID: 7967673246639313875}
 --- !u!114 &7967673245602971260
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1576,17 +1576,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b5c8cf64540e0ae4692de49e0def75b9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 247.3
+      value: 954.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5c8cf64540e0ae4692de49e0def75b9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 61.2
+      value: 141.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5c8cf64540e0ae4692de49e0def75b9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 294.6
+      value: 546.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5c8cf64540e0ae4692de49e0def75b9,
         type: 3}
@@ -2823,9 +2823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eedce9def26d684eb92cf436d655f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
-  slider: {fileID: 0}
-  progressText: {fileID: 0}
+  loadingScreen: {fileID: 9062130790132978650}
+  slider: {fileID: 9062130789817970046}
+  progressText: {fileID: 9062130789635413567}
   sceneIndex: 0
 --- !u!1 &1044721581145583821
 GameObject:

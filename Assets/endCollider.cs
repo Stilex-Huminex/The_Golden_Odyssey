@@ -9,7 +9,7 @@ public class endCollider : MonoBehaviour
         Debug.Log(other.name);
         if (other.name == "First Person Player")
         {
-            FindObjectOfType<LevelLoader>().LoadLevel(5);
+            FindObjectOfType<LevelLoader>().LoadLevel(6);
         }
     }
 }

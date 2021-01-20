@@ -70,10 +70,8 @@ public class Interaction : MonoBehaviour
         {
             if (SaveManager.currentWeapon == "beam")
             {
-                Debug.Log("On intéragit");
                 Transform p = go.transform.parent;
-                Debug.Log(p.rotation.y);
-                p.rotation = new Quaternion(p.rotation.x, p.rotation.y + 0.005f, p.rotation.z, p.rotation.w);
+                p.RotateAround(p.position, Vector3.up, 20f * Time.deltaTime);
             }
         }
 

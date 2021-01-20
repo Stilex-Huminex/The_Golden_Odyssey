@@ -14,7 +14,7 @@ public class plaque1 : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (P1 == false && collision.gameObject.layer != 8)
+        if (P1 == false && collision.gameObject.layer != 8 && collision.gameObject.layer != 11)
         {
             P1 = true;
             RP1.material = M1;

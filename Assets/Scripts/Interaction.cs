@@ -36,7 +36,7 @@ public class Interaction : MonoBehaviour
             {
                 Vector3 scale = go.transform.localScale;
 
-                if (scale.Equals(Vector3.zero))
+                if (scale.x <= 0.15f || scale.y <= 0.15f || scale.z <= 0.15f)
                 {
                     go.SetActive(false);
                 } else

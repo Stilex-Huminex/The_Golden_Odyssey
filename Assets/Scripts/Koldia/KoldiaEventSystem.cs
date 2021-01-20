@@ -14,6 +14,9 @@ public class KoldiaEventSystem : MonoBehaviour
     [SerializeField] private GameObject levier2;
     [SerializeField] private GameObject porte3;
 
+    [SerializeField] private GameObject iceCube;
+    [SerializeField] private GameObject porte4;
+
 
     // Update is called once per frame
     void Update()
@@ -27,6 +30,11 @@ public class KoldiaEventSystem : MonoBehaviour
             )
         {
             porte2.SetActive(false);
+        }
+
+        if (!iceCube.activeSelf)
+        {
+            porte4.SetActive(false);
         }
     }
 

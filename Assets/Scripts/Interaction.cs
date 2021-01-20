@@ -29,6 +29,23 @@ public class Interaction : MonoBehaviour
             }
         }
 
+        // 3 - glaçon
+        if (id == 3)
+        {
+            if (SaveManager.currentWeapon == "laser")
+            {
+                Vector3 scale = go.transform.localScale;
+
+                if (scale.Equals(Vector3.zero))
+                {
+                    go.SetActive(false);
+                } else
+                {
+                    go.transform.localScale = new Vector3(scale.x - 0.05f, scale.y - 0.05f, scale.z - 0.05f);
+                }
+
+            }
+        }
 
         if (id == 4)
         {

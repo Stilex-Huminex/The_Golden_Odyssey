@@ -36,6 +36,10 @@ public class altarCollider : MonoBehaviour
         numBouton += 1;
         StartCoroutine(DrawPopup("Vous avez trouvé "+ numBouton + "/3 bouton pour ouvrir la porte !"));
     }
+    public void MessageFinMap()
+    {
+        StartCoroutine(DrawPopup("L'odysseus est hors service ! Mais je vois les cités d'or au loin. Je dois me sortir de la !"));
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.name == "First Person Player")

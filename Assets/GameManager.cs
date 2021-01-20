@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         StartCoroutine(DrawPopup(" Manuel : \n - ZQSD déplacement horizontaux et verticaux \n - LeftShift Espace Rotation"));
+        
     }
     public void réparation()
     {

@@ -29,10 +29,13 @@ public class PlayerCollision : MonoBehaviour
                 x = transform.position.x;
                 y = transform.position.y;
                 z = transform.position.z;
+                Debug.Log(x);
+                        
                
             }
         }     
     }
+    /*
 
     public void OnCollisionEnter(Collision hit)
     {
@@ -42,6 +45,7 @@ public class PlayerCollision : MonoBehaviour
             transform.position = new Vector3(x, y, z);
         }
     }
+    */
     private void Update()
     {
 

@@ -37,6 +37,10 @@ public class VaisseauColider : MonoBehaviour
         {
             FindObjectOfType<LevelLoader>().LoadLevel(1);
         }
+        if (hit.gameObject.name == "Sun" && SaveManager.stone1 && SaveManager.stone2 && SaveManager.stone3)
+        {
+            FindObjectOfType<LevelLoader>().LoadLevel(3);
+        }
         if (hit.gameObject.name == "Teleportation6")
         {
 

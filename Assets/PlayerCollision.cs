@@ -20,12 +20,15 @@ public class PlayerCollision : MonoBehaviour
         y = transform.position.y;
         z = transform.position.z;
     }
-    
+
     public void OnTriggerEnter(Collider hit)
     {
-        /*
+
         if (hit.gameObject.tag == "CheckPoint")
-        {   
+        {
+            Debug.Log("oui");
+            Position();
+            /*
             if (checkpointName != hit.gameObject.name)
             {
                 
@@ -37,23 +40,32 @@ public class PlayerCollision : MonoBehaviour
                         
                
             }
-        */
-        if (hit.gameObject.name == "Cube")
-        {
-            transform.position = new Vector3(x, y, z);
+            */
         }
-        
+
+
+        if (hit.gameObject.name == "Cube")
+            {
+            transform.position = new Vector3(x, y, z);
+            
+
+            }
     }
    
     
-    private void Update()
+    void Update()
     {
 
         if (transform.position.y < -30f)
         {
             transform.position = new Vector3(x, y, z);
         }
-    }
 
+        
+    }
+    public void Position()
+    {
+        transform.position = new Vector3(x, y, z);
+    }
 
 }

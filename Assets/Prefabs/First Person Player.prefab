@@ -294,7 +294,7 @@ MonoBehaviour:
   contr: {fileID: 7967673245602971270}
   move: {fileID: 7967673245602971271}
   groundCheck: {fileID: 7967673245427949910}
-  groundDistance: 0.4
+  groundDistance: 2
   groundMask:
     serializedVersion: 2
     m_Bits: 512
@@ -926,7 +926,6 @@ GameObject:
   - component: {fileID: 7967673246375942436}
   - component: {fileID: 7967673246375942433}
   - component: {fileID: 7967673246375942434}
-  - component: {fileID: 7967673246375942435}
   m_Layer: 10
   m_Name: Plane
   m_TagString: Untagged
@@ -995,20 +994,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7967673246375942435
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7967673246375942437}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7967673246485668639
 GameObject:
   m_ObjectHideFlags: 0

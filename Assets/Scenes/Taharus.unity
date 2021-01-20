@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2870,7 +2870,7 @@ MonoBehaviour:
   loadingScreen: {fileID: 1761677755}
   slider: {fileID: 1761677757}
   progressText: {fileID: 1761677756}
-  sceneIndex: 0
+  sceneIndex: 1
 --- !u!1001 &1345744290
 PrefabInstance:
   m_ObjectHideFlags: 0

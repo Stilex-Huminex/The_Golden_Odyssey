@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!199 &4666231
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5479,6 +5480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &126129490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5834,6 +5836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!199 &216926217
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -13029,6 +13032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &727439418
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13273,6 +13277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &762645673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13436,6 +13441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &794984096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13657,6 +13663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &863747668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13717,6 +13724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!4 &904346324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
@@ -14227,7 +14235,7 @@ PrefabInstance:
     - target: {fileID: 7967673245602971269, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7967673245602971269, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}
@@ -14262,7 +14270,7 @@ PrefabInstance:
     - target: {fileID: 7967673245602971271, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}
       propertyPath: baseSpeed
-      value: 30
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31d20129f827e8248bc4f0486a12330c, type: 3}
@@ -15002,6 +15010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &1201662308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20229,6 +20238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1 &1352996608
 GameObject:
   m_ObjectHideFlags: 0
@@ -20737,6 +20747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &1457530182
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27770,6 +27781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1001 &1804389882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27877,6 +27889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!199 &1804530154
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -37881,6 +37894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1 &2011816630
 GameObject:
   m_ObjectHideFlags: 0
@@ -38222,7 +38236,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: dc4f9c500260aab4fa544e22c796e9ba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.88
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dc4f9c500260aab4fa544e22c796e9ba,
         type: 3}
@@ -38306,6 +38320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 9
   stoneID: 2
+  popupText: {fileID: 1137366045}
 --- !u!65 &2044516051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38747,6 +38762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &2126205770
 MeshCollider:
   m_ObjectHideFlags: 0

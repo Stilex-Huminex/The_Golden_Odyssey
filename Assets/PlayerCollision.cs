@@ -41,7 +41,7 @@ public class PlayerCollision : MonoBehaviour
         }
 
 
-        if (hit.gameObject.name == "Lave")
+        if (hit.gameObject.name == "Lave" || hit.gameObject.tag == "Mort")
             {
 
             contr.enabled = false;

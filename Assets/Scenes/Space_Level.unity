@@ -34073,6 +34073,16 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3275727018559192264, guid: 89dc7d0488e57d84d9bfee99fba1a3e6,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275727018559192264, guid: 89dc7d0488e57d84d9bfee99fba1a3e6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5102724894744512663, guid: 89dc7d0488e57d84d9bfee99fba1a3e6,
         type: 3}
       propertyPath: m_Materials.Array.size

@@ -6,7 +6,7 @@
 
     public static string currentWeapon = "null";
 
-    public static bool stone1 = false;
-    public static bool stone2 = false;
-    public static bool stone3 = false;
+    public static bool stone1 = true;
+    public static bool stone2 = true;
+    public static bool stone3 = true;
 }

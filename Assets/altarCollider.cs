@@ -18,7 +18,12 @@ public class altarCollider : MonoBehaviour
     public void MapSable()
     {
         popup.fontSize = 40;
-        StartCoroutine(DrawPopup("Il me semble avoir aperçu une sorte de labyrinthe par ici ... "));
+        StartCoroutine(DrawPopup("Il me semble que j'ai apperçue une sorte de labyrinthe ... "));
+
+    }
+    public void TextScanner()
+    {
+        StartCoroutine(DrawPopup("Mon scanner devrait m'être utile, utilisez la touche 1 "));
     }
     public void MessageCheckpoint()
     {

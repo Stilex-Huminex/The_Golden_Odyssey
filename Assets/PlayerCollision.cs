@@ -52,6 +52,11 @@ public class PlayerCollision : MonoBehaviour
             
             }
 
+        if (hit.gameObject.name == "TextScannerN")
+        {
+            FindObjectOfType<altarCollider>().TextScanner();
+            
+        }
         
 
     }

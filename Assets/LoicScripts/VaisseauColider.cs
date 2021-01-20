@@ -11,12 +11,10 @@ public class VaisseauColider : MonoBehaviour
       
         if (hit.gameObject.tag == "Asteroïde")
         {
-            Cursor.lockState = CursorLockMode.None;
             FindObjectOfType<MainVaisseau>().enabled = false;
-            
             panel.SetActive(true);
             slider.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
+            FindObjectOfType<GameManager>().réparation();
         }
     }
     private void OnTriggerEnter(Collider hit)

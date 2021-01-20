@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 114847636}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Mort
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1328,7 +1328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967013249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 316.5, y: 140.89, z: 760.6}
+  m_LocalPosition: {x: 369.8, y: 140.89, z: 714.9}
   m_LocalScale: {x: 7.6297345, y: 7.6297345, z: 7.6297345}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2470,7 +2470,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
         type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f31f8bfaa4d5942b6f7fe02e72b536, type: 3}
@@ -2493,6 +2493,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03289933, y: 0.028959801, z: 0.024005946}
   m_Center: {x: 0.0033505843, y: -0.00006186495, z: 0.0017809953}
+--- !u!114 &1787650363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787650361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75fbab5b994cf74fa16b9d98499cb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1001 &1823924721
 PrefabInstance:
   m_ObjectHideFlags: 0

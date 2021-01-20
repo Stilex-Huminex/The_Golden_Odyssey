@@ -27,7 +27,6 @@ public class VaisseauColider : MonoBehaviour
         {
             FindObjectOfType<LevelLoader>().LoadLevel(5);
 
-
         }
         if (hit.gameObject.name == "Planet moyen")
         {

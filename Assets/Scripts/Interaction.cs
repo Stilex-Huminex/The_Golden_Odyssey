@@ -97,6 +97,13 @@ public class Interaction : MonoBehaviour
                     break;
             }
         }
+        if (id == 15)
+        {
+            if (SaveManager.currentWeapon == "beam")
+            {
+                GameObject.Find("Porte").GetComponent<wallDown>().descendre();
+            }
+        }
 
     }
 }

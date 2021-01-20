@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlaneteLogan.unity
     guid: 8dbc821ecf30484418777902e204a37b
+  - enabled: 1
+    path: Assets/Scenes/End_Screen.unity
+    guid: 190c632b0f3241541a893d229f5f9500
   m_configObjects: {}

@@ -1,8 +1,8 @@
 ﻿public static class SaveManager
 {
-    public static bool isGrapUnlocked = false;
-    public static bool isLaserUnlocked = false;
-    public static bool isWaveUnlocked = false;
+    public static bool isGrapUnlocked = true;
+    public static bool isLaserUnlocked = true;
+    public static bool isWaveUnlocked = true;
 
     public static string currentWeapon = "null";
 

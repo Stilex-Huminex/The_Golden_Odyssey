@@ -91,19 +91,21 @@ public class Interaction : MonoBehaviour
 
             // display text to the user
             int count = (SaveManager.stone1 ? 1 : 0) + (SaveManager.stone2 ? 1 : 0) + (SaveManager.stone3 ? 1 : 0);
+            Debug.Log(count);
+            Debug.Log(SaveManager.stone1 + " " + SaveManager.stone2 + " " + SaveManager.stone3);
 
             if (previousStoneCount < count)
             {
                 // évite de répéter le popup
                 switch (count)
                 {
-                    case 0:
+                    case 1:
                         StartCoroutine(DrawPopup("Ces symboles sont étranges mais ils semblent familiers..."));
                         break;
-                    case 1:
+                    case 2:
                         StartCoroutine(DrawPopup("Je sais que j'ai déjà vu ces coordonnées quelque part..."));
                         break;
-                    case 2:
+                    case 3:
                         StartCoroutine(DrawPopup("Le soleil ! Ce sont les coordonnées du soleil !"));
                         break;
                 }

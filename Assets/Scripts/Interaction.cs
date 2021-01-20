@@ -5,6 +5,12 @@ using UnityEngine;
 public class Interaction : MonoBehaviour
 {
     [SerializeField] private int id;
+    [SerializeField] private int stoneID;
+
+    public int getID()
+    {
+        return id;
+    }
 
     public void Interact()
     {
@@ -72,6 +78,23 @@ public class Interaction : MonoBehaviour
             {
                 Transform p = go.transform.parent;
                 p.RotateAround(p.position, Vector3.up, 20f * Time.deltaTime);
+            }
+        }
+
+        if (id == 9)
+        {
+            Debug.Log("Activated altar " + stoneID);
+            switch (stoneID)
+            {
+                case 1:
+                    SaveManager.stone1 = true;
+                    break;
+                case 2:
+                    SaveManager.stone2 = true;
+                    break;
+                case 3:
+                    SaveManager.stone3 = true;
+                    break;
             }
         }
 

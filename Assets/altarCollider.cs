@@ -19,7 +19,7 @@ public class altarCollider : MonoBehaviour
     {
         popup.fontSize = 40;
         StartCoroutine(DrawPopup("Il me semble que j'ai apperçue une sorte de labyrinthe ... "));
-        
+
     }
     public void TextScanner()
     {

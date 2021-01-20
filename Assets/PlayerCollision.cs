@@ -20,7 +20,7 @@ public class PlayerCollision : MonoBehaviour
         y = transform.position.y;
         z = transform.position.z;
     }
-
+    /*
     public void OnTriggerEnter(Collider hit)
     {
         
@@ -44,7 +44,7 @@ public class PlayerCollision : MonoBehaviour
         }
     }
    
-    
+    */
     private void Update()
     {
 

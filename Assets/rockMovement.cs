@@ -17,7 +17,7 @@ public class rockMovement : MonoBehaviour
         if (transform.position.y <= 0)
         {
             transform.position = spawn;
-            rb.velocity = new Vector3(0,0,0)
+            rb.velocity = new Vector3(0, 0, 0);
         }
     }
 

@@ -10,15 +10,25 @@ public class altarCollider : MonoBehaviour
     [SerializeField] private int id;
     private Renderer rend;
     [SerializeField] private Material[] materials;
-
+    private int numBouton=0;
     private void Start()
     {
         rend = GetComponent<Renderer>();
     }
-
+    public void MapSable()
+    {
+        popup.fontSize = 40;
+        StartCoroutine(DrawPopup("Il me semble que j'ai apperçue une sorte de labyrinthe ... "));
+    }
     public void MessageCheckpoint()
     {
         StartCoroutine(DrawPopup("New Checkpoint"));
+    }
+    public void BoutonAvancement()
+    {
+
+        numBouton += 1;
+        StartCoroutine(DrawPopup("Vous avez trouvé "+ numBouton + "/3 bouton pour ouvrir la porte !"));
     }
     private void OnCollisionEnter(Collision collision)
     {

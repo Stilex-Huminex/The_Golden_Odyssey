@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3710,12 +3710,17 @@ PrefabInstance:
     - target: {fileID: 7967673245602971271, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}
       propertyPath: baseSpeed
-      value: 30
+      value: 25.59
       objectReference: {fileID: 0}
     - target: {fileID: 7967673245602971271, guid: 31d20129f827e8248bc4f0486a12330c,
         type: 3}
       propertyPath: jumHeight
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7967673246485668635, guid: 31d20129f827e8248bc4f0486a12330c,
+        type: 3}
+      propertyPath: far clip plane
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31d20129f827e8248bc4f0486a12330c, type: 3}

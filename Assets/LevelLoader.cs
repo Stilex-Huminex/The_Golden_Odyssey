@@ -8,6 +8,7 @@ public class LevelLoader : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
     public Text progressText;
+    public int sceneIndex;
 
     
     public void LoadLevel(int sceneIndex)
@@ -32,5 +33,9 @@ public class LevelLoader : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        LoadLevel(sceneIndex);
+    }
 
 }

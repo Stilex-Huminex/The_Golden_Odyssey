@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!199 &4666231
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5479,6 +5480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &126129490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5834,6 +5836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!199 &216926217
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -13029,6 +13032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &727439418
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13273,6 +13277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &762645673
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13436,6 +13441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &794984096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13657,6 +13663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &863747668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13717,6 +13724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!4 &904346324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 46f31f8bfaa4d5942b6f7fe02e72b536,
@@ -14266,6 +14274,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31d20129f827e8248bc4f0486a12330c, type: 3}
+--- !u!1 &956555389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3853758033299418134, guid: 31d20129f827e8248bc4f0486a12330c,
+    type: 3}
+  m_PrefabInstance: {fileID: 956555388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &977802149 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 86731f94173f8c14cb4e8f22199f030a,
@@ -14684,7 +14698,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 956555388}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 956555389}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -15002,6 +15016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &1201662308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20229,6 +20244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1 &1352996608
 GameObject:
   m_ObjectHideFlags: 0
@@ -20737,6 +20753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &1457530182
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27770,6 +27787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1001 &1804389882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27877,6 +27895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!199 &1804530154
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -37881,6 +37900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!1 &2011816630
 GameObject:
   m_ObjectHideFlags: 0
@@ -38222,7 +38242,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: dc4f9c500260aab4fa544e22c796e9ba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.88
+      value: 1.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: dc4f9c500260aab4fa544e22c796e9ba,
         type: 3}
@@ -38306,6 +38326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 9
   stoneID: 2
+  popupText: {fileID: 956555389}
 --- !u!65 &2044516051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38747,6 +38768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   stoneID: 0
+  popupText: {fileID: 0}
 --- !u!64 &2126205770
 MeshCollider:
   m_ObjectHideFlags: 0

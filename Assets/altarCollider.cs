@@ -16,6 +16,10 @@ public class altarCollider : MonoBehaviour
         rend = GetComponent<Renderer>();
     }
 
+    public void MessageCheckpoint()
+    {
+        StartCoroutine(DrawPopup("New Checkpoint"));
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.name == "First Person Player")

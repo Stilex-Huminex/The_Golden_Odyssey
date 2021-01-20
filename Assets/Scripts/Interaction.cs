@@ -28,5 +28,37 @@ public class Interaction : MonoBehaviour
                 go.SetActive(false);
             }
         }
+
+
+        if (id == 4)
+        {
+            if (SaveManager.currentWeapon == "beam")
+            {
+                Debug.Log("On intéragit");
+                Transform p = go.transform.parent;
+                Debug.Log(p.rotation.y);
+                if (p.rotation.y <= 0.7f)
+                {
+                    p.rotation = new Quaternion(p.rotation.x, p.rotation.y + 0.005f, p.rotation.z, p.rotation.w);
+                }
+                else
+                {
+                    p.rotation = new Quaternion(p.rotation.x, 0.7071068f, p.rotation.z, p.rotation.w);
+                }
+            }
+        }
+
+
+        if (id == 5)
+        {
+            if (SaveManager.currentWeapon == "beam")
+            {
+                Debug.Log("On intéragit");
+                Transform p = go.transform.parent;
+                Debug.Log(p.rotation.y);
+                p.rotation = new Quaternion(p.rotation.x, p.rotation.y + 0.005f, p.rotation.z, p.rotation.w);
+            }
+        }
+
     }
 }

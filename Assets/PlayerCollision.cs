@@ -16,6 +16,9 @@ public class PlayerCollision : MonoBehaviour
     {
         gameObject.SetActive(false);
         gameObject.SetActive(true);
+        x = transform.position.x;
+        y = transform.position.y;
+        z = transform.position.z;
     }
 
     public void OnTriggerEnter(Collider hit)
@@ -30,7 +33,7 @@ public class PlayerCollision : MonoBehaviour
                 x = transform.position.x;
                 y = transform.position.y;
                 z = transform.position.z;
-                Debug.Log(x);
+                
                         
                
             }

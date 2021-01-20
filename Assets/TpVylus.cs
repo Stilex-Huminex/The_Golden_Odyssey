@@ -8,7 +8,6 @@ public class TpVylus : MonoBehaviour
     public float targetx;
     public float targety;
     public float targetz;
-
     public Transform player;
 
 
@@ -17,11 +16,22 @@ public class TpVylus : MonoBehaviour
     {
         if (collision.name == "First Person Player")
         {
-            Debug.Log("Avant1" + collision.gameObject.transform.position);
-            Debug.Log("Avant2" + new Vector3(targetx, targety, targetz));
-            collision.gameObject.transform.position = new Vector3(targetx, targety, targetz);
-            Debug.Log("Après1" + collision.gameObject.transform.position);
-            Debug.Log("Après2" + new Vector3(targetx, targety, targetz));
+            tp(collision);
         }
+    }
+
+    private void tp(Collider collision)
+    {
+        CharacterController contr = collision.gameObject.GetComponent<CharacterController>(); ;
+        PlayerMovement move = collision.gameObject.GetComponent<PlayerMovement>();
+
+        contr.enabled = false;
+        move.enabled = false;
+        collision.gameObject.transform.position = new Vector3(targetx, targety, targetz);
+        contr.enabled = true;
+        move.enabled = true;
+
+
+
     }
 }

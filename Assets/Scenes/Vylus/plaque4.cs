@@ -7,6 +7,7 @@ public class plaque4 : MonoBehaviour
     public bool P1 = false;
     public Renderer RP1;
     public Material M1;
+    public lowerMechanic pont;
 
     void OnCollisionEnter()
     {
@@ -14,7 +15,7 @@ public class plaque4 : MonoBehaviour
         {
             P1 = true;
             RP1.material = M1;
-            Debug.Log("P1");
+            pont.enabled = true;
 
         }
     }

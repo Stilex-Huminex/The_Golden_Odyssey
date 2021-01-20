@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    
+    public CharacterController contr;
+    public PlayerMovement move;
+
 
     private float x=0;
     private float y=0;
@@ -24,29 +26,17 @@ public class PlayerCollision : MonoBehaviour
     public void OnTriggerEnter(Collider hit)
     {
 
-        if (hit.gameObject.tag == "CheckPoint")
-        {
-            Debug.Log("oui");
-            Position();
-            /*
-            if (checkpointName != hit.gameObject.name)
-            {
-                
-                checkpointName = hit.gameObject.name;
-                x = transform.position.x;
-                y = transform.position.y;
-                z = transform.position.z;
-                
-                        
-               
-            }
-            */
-        }
 
 
-        if (hit.gameObject.name == "Cube")
+        if (hit.gameObject.name == "Lave")
             {
+
+            contr.enabled = false;
+            move.enabled = false;
             transform.position = new Vector3(x, y, z);
+            contr.enabled = true;
+            move.enabled = true;
+            
             
 
             }
@@ -63,9 +53,6 @@ public class PlayerCollision : MonoBehaviour
 
         
     }
-    public void Position()
-    {
-        transform.position = new Vector3(x, y, z);
-    }
+   
 
 }

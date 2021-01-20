@@ -26,6 +26,12 @@ public class PlayerCollision : MonoBehaviour
     public void OnTriggerEnter(Collider hit)
     {
 
+        if (hit.gameObject.tag == "CheckPoint")
+        {
+            x = transform.position.x;
+            y = transform.position.y;
+            z = transform.position.z;
+        }
 
 
         if (hit.gameObject.name == "Lave")

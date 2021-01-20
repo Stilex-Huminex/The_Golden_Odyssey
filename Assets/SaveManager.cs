@@ -2,7 +2,7 @@
 {
     public static bool isGrapUnlocked = false;
     public static bool isLaserUnlocked = false;
-    public static bool isWaveUnlocked = true;
+    public static bool isWaveUnlocked = false;
 
     public static string currentWeapon = "null";
 

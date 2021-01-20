@@ -26,12 +26,12 @@ public class Radar : MonoBehaviour
         if (!Input.GetMouseButton(0))
         {
             radar.enabled = false;
-            radarImg.SetActive(false);
+            radarImg.GetComponent<Image>().SetEnabled(false);
         }
         else
         {
             radar.enabled = true;
-            radarImg.SetActive(true);
+            radarImg.GetComponent<Image>().SetEnabled(true);
             for (int i = 0; i < pointeurs.Count; i++)
             {
                 if (Vector3.Distance(pointeurs[i].transform.position, transform.position) > distance)

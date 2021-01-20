@@ -9,7 +9,7 @@ public class bouton1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        FindObjectOfType<altarCollider>().MapSable();
     }
 
     // Update is called once per frame
@@ -24,7 +24,9 @@ public class bouton1 : MonoBehaviour
             Bout1 = true;
             B1.enabled = false;
             Debug.Log("b1");
+            FindObjectOfType<altarCollider>().BoutonAvancement();
 
         }
+        
     }
 }

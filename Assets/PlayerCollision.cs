@@ -50,9 +50,10 @@ public class PlayerCollision : MonoBehaviour
             contr.enabled = true;
             move.enabled = true;
             
-            
-
             }
+
+        
+
     }
    
     
